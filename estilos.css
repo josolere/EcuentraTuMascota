@@ -1,3 +1,58 @@
-*{
-    background-color: aqua;
+* {
+    /* background-color:red; */
+}
+
+#body {
+    display: flex;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    width: 100%;
+}
+
+.logoos {
+    display: flex;
+    display: inline-block;
+    justify-content: flex-end;
+    width: 200px;
+    padding: 1rem;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 74, 85);
+}
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 450px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(24, 122, 56);
+    color: white;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color:lightgreen
 }
