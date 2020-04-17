@@ -10,30 +10,30 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <link rel="icon" type="image.png" href="./img/logoMascota2.ico">
 
-    <title>Encuentra Tu Mascotas</title>
+    <title>Encuentra Tu Mascota</title>
 </head>
 
 <body>
-
-    <header class="logos">
-        
-        <div class="log">
-            <h1 class="titulo">Encuentra Tu Mascota</h1>
+<!-- logo principal -->
+    <header class="logos">        
+        <div class="log">            
             <img class="logoos" src="./img/logoMascota.PNG" alt="logo de la pagina">
+            <h1 class="titulo">Encuentra Tu Mascota</h1>
         </div>
-            <nav class="navegacion">
+        <!-- carrusel de imagenes -->
+            <nav id="navFijo" class="navegacion">
                 <div class="nav">
                     <a href="#Mascotas_perdidas">Mascotas Perdidas</a>
                     <a href="#adopcion">Adopcion</a>
                     <a href="#cuidados">cuidados mascotas</a>
-                    <a href="#Informacion">Informacion</a>
+                    <a href="informacion.html">Casas De Paso</a>
                 </div>
             </nav>
-        
-
     </header>
-
+    <main class="principal">
     <section class="contenedor">
         <div id="carouselExampleCaptions" class="carousel slide carrusel" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -41,26 +41,21 @@
                 <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                 <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
             </ol>
+            <!-- imagenes del carrusel -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./img/mascotas1.jpeg" class="d-block w-100 imagen1" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <img src="./img/mascotas1.jpeg" class="d-block w-100 imagen1" alt="imagen mascota">
+                    <div class="carousel-caption d-none d-md-block">                       
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./img/mascotas2.jpeg" class="d-block w-100 imagen2" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="./img/perro1.jpeg" class="d-block w-100 imagen3" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <div class="carousel-caption d-none d-md-block">                        
                     </div>
                 </div>
             </div>
@@ -73,7 +68,57 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        
     </section>
+    <section class="informacion">        
+        <div class="info">
+            <h2>¿Deseas Adoptar Una Mascota?</h2>
+            <p class="parrafo1" >Si deseas adoptar una mascota, estas en el lugar indicado,<br> 
+                en este lugar puedes encontrar informacion de mascotas que <br>
+                estan disponibles para llenar de amor tu hogar, y muchos <br>
+                consejos para brindarle a tu nueva mascota los mejores <br>
+                cuidados que necesita,
+            </p>
+        </div>
+    </section>
+    <!-- seccion de cards -->
+    <section class="cards m-5 p-5">
+        <div class="card-deck">
+            <div class="card">
+              <img src="./img/perro2.jpeg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Adopcion De Perros</h5>
+                <p class="card-text">si deseas adoptar un perro puedes darle
+                    click en el siguiente boton</p>
+                <a href="#" class=" btnAdopcion"><i class="fas fa-dog"></i>Adopcion</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/casa1.jpeg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Casas De Paso</h5>
+                <p class="card-text">si deseas ayudar a los hogares de paso puedes darle
+                    click en el siguiente boton.</p>
+                <a href="#" class=" btnAdopcion"><i class="fas fa-cat"></i>Ayudas</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/mascotas1.jpeg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Mascotas Perdidas</h5>
+                <p class="card-text">si deseas miarar o reportar mascotas perdidas puedes darle
+                    click en el siguiente boton.</p>
+                <a href="#" class=" btnAdopcion"><i class="fas fa-paw"></i>Perdidos</a>
+              </div>
+            </div>
+          </div>       
+    </section>
+</main>
+
+<footer>
+
+</footer>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -86,6 +131,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+
+        <!-- iconos -->
+        <script src="https://kit.fontawesome.com/670499e235.js" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
 </body>
 
 </html>
