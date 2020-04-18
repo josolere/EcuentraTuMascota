@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" type="image.png" href="./img/logoMascota2.ico">
+
+  <title>Encuentra Tu Mascotas</title>
+</head>
+
+<body>
+
+  <header class="logos">
+
+    <div class="log">
+      <h1 class="titulo">Mascotas En Adopcion</h1>
+      <img class="logoos" src="./img/logoMascota.PNG" alt="logo de la pagina">
+    </div>
+    <nav class="navegacion">
+      <div class="nav">
+        <a href="index.html">Inicio</a>
+        <a href="Mascotasperdidas.html">Mascotas Perdidas</a>
+        <a href="#cuidados">Cuidados De Mascotas</a>
+        <a href="informacion.html">Casas De Paso</a>
+      </div>
+    </nav>
+
+  </header>
+
+  <main class="principal">
+    <Section>
+      <h3 Class="mt-5 ml-2">En esta sección encontrarás perros y gatos en adopción</h3>
+
+
+
+      <section class="contenedor d-flex justify-content:space-between mt-5 mb-5 bg-transparent">
+        <div class="card mr-5" style="width: 18rem;">
+          <img src="./img2/Perros/Matias.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Matias</h5>
+            <p class="card-text">Matias esta buscando una nueva familia. Nos mudamos a un apartamento y le ha costado
+              acostumbrarse. Matias esta mucho más feliz en un lugar donde pueda correr</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Raza: Boxer</li>
+            <li class="list-group-item">Edad: 9 meses</li>
+            <li class="list-group-item">Color: Marron y blanco</li>
+          </ul>
+          <div class="card-body">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Adoptar">Lo quiero!</button>
+          </div>
+        </div>
+        <div class="card ml-5" style="width: 18rem;">
+          <img src="./img2/Perros/Zoe.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Chloe</h5>
+            <p class="card-text">Chloe esta buscando un hogar. Encontré a Chloé en la calle pero no la puedo guardar
+              porque tengo un gato que no se lleva bien con otros animales. Chloé es bien educada y se adapta
+              facilmente.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Raza: Samoid</li>
+            <li class="list-group-item">Edad: 6/7 meses</li>
+            <li class="list-group-item">Color: Blanco</li>
+          </ul>
+          <div class="card-body">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Adoptar">Lo quiero!</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="contenedor d-flex justify-content:space-between mt-2 mb-5 bg-transparent">
+        <div class="card mr-5" style="width: 18rem;">
+          <img src="./img2/Gatos/Sira.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Casper</h5>
+            <p class="card-text">Hola, encontré esta gato hermoso. Desafortunadamente no lo puedo guardar por temas de
+              alergia.</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Raza: Indefinido</li>
+            <li class="list-group-item">Edad: Indefinido</li>
+            <li class="list-group-item">Color: Blanco y anaranjado</li>
+          </ul>
+          <div class="card-body">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Adoptar">Lo quiero!</button>
+          </div>
+        </div>
+        <div class="card ml-5" style="width: 18rem;">
+          <img src="./img2/Gatos/Kira.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pao</h5>
+            <p class="card-text">Pao esta en adopción. Mi mama se fue a una casa de retiro y no se la pudo llervar :(.
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Raza: Begala</li>
+            <li class="list-group-item">Edad: 6 años</li>
+            <li class="list-group-item">Color: Gris y negro</li>
+          </ul>
+          <div class="card-body">
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#Adoptar">Lo quiero!</button>
+          </div>
+        </div>
+      </section>
+
+
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="Adoptar" tabindex="-1" role="dialog" aria-labelledby="AdoptarLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Esta mascota será pronto tuya!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              Nos ecanta ver que vas a adoptar una mascota! Por favor, comunicate al 317 6467 699.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto+Condensed:300' rel='stylesheet'
+        type='text/css'>
+
+      <footer>
+        <div class="card-header social">
+          <h3>Social Links</h3>
+          <div class="social-list">
+            <button class="social-btn" href="#">
+              <i class="fa fa-twitter-square fa-4x"></i>
+              <p>Twitter</p>
+            </button>
+            <button class="social-btn" href="#">
+              <i class="fa fa-youtube-square fa-4x"></i>
+              <p>Youtube</p>
+            </button>
+            <button class="social-btn" href="#">
+              <i class="fa fa-instagram fa-4x"></i>
+              <p>Instagram</p>
+            </button>
+          </div>
+      </footer>
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/">
+      </script>
+      <script src="/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+</main>
+
+</html>

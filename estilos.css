@@ -12,18 +12,18 @@
     justify-content: center;
     align-items: center;
     margin: 10px 0 0 0;
-    display: inline;   
-    color: rgb(95, 91, 91); 
+    display: inline;
+    color: rgb(95, 91, 91);
 }
 
-.log{
+.log {
     display: flex;
     height: 100px;
     justify-content: space-evenly;
     background-color: lightgray;
-    border-top:  rgb(86, 117, 97) solid 30px;
+    border-top: rgb(86, 117, 97) solid 30px;
 }
- 
+
 .logoos {
     display: flex;
     justify-content: flex-end;
@@ -32,13 +32,13 @@
     display: inline;
 }
 
-.logos{
+.logos {
     position: fixed;
     z-index: 1000;
     width: 100%;
 }
 
-.principal{
+.principal {
     padding-top: 150px;
 }
 
@@ -64,50 +64,49 @@
 
 .nav {
     display: flex;
-    
     width: 100%;
     justify-content: space-around;
-    align-items:center;
+    align-items: center;
     background-color: rgb(24, 122, 56);
     color: white;
-    
 }
-.nav a{
+
+.nav a {
     color: white;
     text-decoration: none;
 }
 
-.nav a:hover{
-    color:lightgreen
+.nav a:hover {
+    color: lightgreen
 }
-.informacion{
+
+.informacion {
     display: flex;
     height: 400px;
     justify-content: center;
     align-items: center;
     background-color: lightgrey;
-    
 }
 
-.info  h2, .info p {
+.info h2, .info p {
     display: flex;
     font-family: 'Girassol', cursive;
     justify-content: center;
-    color: rgb(122, 120, 120); 
+    color: rgb(122, 120, 120);
     font-size: 25px;
 }
 
-.info{
+.info {
     width: 100%;
     background-color: whitesmoke;
 }
 
-.imagen1, .imagen2, .imagen3{
+.imagen1, .imagen2, .imagen3 {
     height: 450px;
     width: 1000px;
 }
 
-.btnAdopcion, .btnCasa{
+.btnAdopcion, .btnCasa {
     background-color: lightgrey;
     border-color: solid 3px rgb(31, 40, 48);
     text-decoration: none;
@@ -116,24 +115,88 @@
     width: 120px;
     height: 40px;
     text-align: end;
-    padding: 8px ;
-    border-radius: 10px;    
+    padding: 8px;
+    border-radius: 10px;
 }
 
-.btnCasa{    
-    width: 140px;     
+.btnCasa {
+    width: 140px;
 }
 
-.btnAdopcion, .btnCasa:hover{
+.btnAdopcion:hover, .btnCasa:hover {
     background-color: rgb(176, 183, 192);
     text-decoration: none;
-    color: white;
+    color: rgb(24, 122, 56);
 }
 
-.btnAdopcion, .btnCasa:active{
+.btnAdopcion:active, .btnCasa:active {
     transform: scale(0.8);
 }
 
-.fas{
-margin-right: 8px;
+.fas {
+    margin-right: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact {
+    width: 300px;
+    margin: auto;
+}
+
+.social {
+    max-width: 300px;
+    margin: auto;
+}
+
+.social-list {
+    max-width: 300px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.social h3, .contact h3 {
+    font-family: 'Open Sans', Sans Serif;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(24, 122, 56);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 0 5px 0;
+    color: #fff;
+}
+
+.social-btn {
+    text-align: center;
+    border: none;
+    color: #bdc3c7;
+    width: 60px;
+    height: 80px;
+    background-color: rgb(24, 122, 56);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all .3s ease-out;
+    padding: 0 3px 5px 3px;
+    margin: 5px 5px 5px 5px;
+    font-family: 'Roboto Condensed', Sans Serif;
+}
+
+.social-btn:hover {
+    color: rgb(24, 122, 56);
+    -webkit-filter: drop-shadow(0 0 2px #34495e);
+}
+
+.social-btn:focus {
+    outline: 0;
 }
